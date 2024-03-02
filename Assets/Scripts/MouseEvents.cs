@@ -97,7 +97,7 @@ public class MouseEvents : MonoBehaviour
     {
         if (!focus && UIManager.Instance.mainMenu.activeSelf)
         {
-            UIManager.Instance.HideMainUI();
+            UIManager.Instance.HideAllUI();
         }
     }
 
